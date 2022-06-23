@@ -28,7 +28,7 @@
     <a href="https://www.wikipedia.org" target="_blank">Wikipedia - The Free Encyclopedia</a>
     <h2>Internal links</h2>
     <a href = #bottom> Click here to go to bottom of page </a> 
-     <div id="middle">
+    <div id="middle">
         <h2>Morning routine</h2>
         <ol>
             <li>Wake up</li>
@@ -45,6 +45,7 @@
             </ul>
             <li>Go To work</li>
         </ol>
+    </div>
     <div>
         <h2>Tables</h2>
         <table>
@@ -59,8 +60,33 @@
             </tr>
         </table>
     </div>
+    <div>
+        <h2>Forms</h2>
+        <form>
+            <h2>Enter Form</h2>
+            <form method='post' action='https://formdump.codeinstitute.net/'>
+                <input name='postdata' type='text'>
+            </form>
+            <form method='get' target='_blank' action='https://formdump.codeinstitute.net/'>
+                <input name='getdata' type='text'>
+            </form>
+        <!--
+            The GET HTTP method is the most straightforward method. It is used whenever a user clicks on the link or types an address into the browser address bar. This method does not modify the data on the server-side; it just receives it as it is. In other words, The GET method is read-only. It does not affect the data in any way.
 
-     </div>
+            The POST HTTP method tells the server to accept and store the data. It is often used for submitting a file or uploading a form.
+
+            In short; GET requests data from the server and POST pushes data to the server.
+        -->
+        <form>
+            <input type="text">
+            <input type="checkbox">
+            <input type="radio">
+            <input type="submit">
+        </form>
+        <label for='email-field'>Email</label>
+		<input id="email-field" type="email">
+        </form>
+    </div>
     <div id="bottom">
         You are now at the bottom of the page!
     </div>
